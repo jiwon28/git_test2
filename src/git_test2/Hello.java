@@ -1,12 +1,10 @@
 package git_test2;
 
-public class Hello {
-    
-    String message = "안녕하세요";
+public class Main {
 
-    public void say() {
-        System.out.println(message);
+    public static void main(String[] args) {
+        Hello hello = new Hello();
+        System.out.println(hello.say());
     }
 
 }
-
